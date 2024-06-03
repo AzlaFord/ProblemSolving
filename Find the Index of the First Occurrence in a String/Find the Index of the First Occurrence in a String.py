@@ -6,5 +6,5 @@ def findtheindex(string,string2):
             if string[i+j] != string2[j]:
                 break
             if j == len(string2) -1:
-                return True
+                return i
     return -1
